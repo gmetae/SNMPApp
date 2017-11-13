@@ -276,8 +276,8 @@ namespace SNMPApp
 
         private void addressesListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string re = addressesListBox.SelectedItem.ToString();
-            hostTextBox.Text = re;
+            string ip = addressesListBox.SelectedItem.ToString();
+            hostTextBox.Text = ip;
         }
     }
 }
