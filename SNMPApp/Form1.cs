@@ -97,7 +97,7 @@ namespace SNMPApp
                 responseTextBox.Text += kvp.Value;
                 responseTextBox.Text += "\r\n";
                 i++;
-                responseTextBox.Text += "==========================\r\n";
+                responseTextBox.Text += "===========================\r\n";
             }
             
         }
